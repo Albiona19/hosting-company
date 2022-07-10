@@ -750,6 +750,10 @@ article h6{
         display: flex;
         flex-direction: column;
         gap: 2rem;
+        font-weight: fonts.$font-inter;
+        font-family: fonts.$fw-bold;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
 
         color: $white;
      
@@ -763,6 +767,53 @@ article h6{
             color: #E6E6E6;
             text-decoration: none;
             width: 100%;
+            font-size: 1.6rem;
+            font-weight: fonts.$fw-regular;
+            font-family: fonts.$font-inter;
+            line-height: 3.2rem;
         }
+
     }
+    &__flex3{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+        font-weight: fonts.$font-inter;
+        font-family: fonts.$fw-bold;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+
+    }
+    &__flex4{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+        font-weight: fonts.$font-inter;
+        font-family: fonts.$fw-bold;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    &__flex5{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+        font-weight: fonts.$font-inter;
+        font-family: fonts.$fw-bold;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+    &__copy{
+        color: $white;
+        padding:0 8rem 2rem 8rem;
+        font-family: fonts.$font-inter;
+        font-style: normal;
+        font-weight: fonts.$fw-regular;
+        font-size: 1.6rem;
+    }
+}
+.li-width{
+    width: 200%;
 }

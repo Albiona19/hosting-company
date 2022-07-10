@@ -723,6 +723,10 @@ table {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  font-weight: "Inter", sans-serif;
+  font-family: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   color: white;
 }
 .footer__ul-flex {
@@ -734,6 +738,52 @@ table {
   color: #E6E6E6;
   text-decoration: none;
   width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 3.2rem;
+}
+.footer__flex3 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-weight: "Inter", sans-serif;
+  font-family: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.footer__flex4 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-weight: "Inter", sans-serif;
+  font-family: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.footer__flex5 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-weight: "Inter", sans-serif;
+  font-family: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.footer__copy {
+  color: white;
+  padding: 0 8rem 2rem 8rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.li-width {
+  width: 200%;
 }
 
 /*# sourceMappingURL=index.css.map */
