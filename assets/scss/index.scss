@@ -152,6 +152,27 @@ $big-space:13.3rem;
             border-color: transparent transparent $dark-red transparent;
 
         }
+        .arrow-up1{
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 74%;
+            left: 96%;
+            border-style: solid;
+            border-width: 0 0 7.2rem 7.2rem;
+            border-color: transparent transparent #B00000 transparent;
+        }
+        .arrow-right1{
+            position: absolute;
+            width: 0;
+            height: 0;
+            top: 0%;
+            left: 33%;
+            border-style: solid;
+            border-width: 0 0 40px 40px;
+            border-color: transparent transparent #B00000 transparent;
+
+        }
         .arrow-bottom{
             position: absolute;
             width: 0;
