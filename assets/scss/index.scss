@@ -386,3 +386,142 @@ $big-space:13.3rem;
         margin-top: 3rem;
     }
 }
+.toggle{
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: fonts.$font-poppins;
+    font-weight: fonts.$fw-regular;
+
+}
+.basic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33rem;
+    font-size: 3rem;
+    font-family: fonts.$font-poppins;
+    font-weight: fonts.$fw-semibold;
+    border-bottom: 2px solid gray;
+}
+.disc{
+    border-radius: 20px;
+    background: #FFE87A;
+    padding: 0.5rem;
+    width: 7%;
+    font-size: 1rem;
+    line-height: 0.9rem;
+    font-weight: fonts.$fw-medium;
+    display: flex;
+    justify-content: center ;
+    align-content: center;
+    align-items: center;
+}
+.toggle-btn{
+    margin: 0 1rem;
+}
+.checkbox{
+    display: none;
+}
+.sub{
+    background-color: $dark-red;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1.6rem;
+    width: 3.3rem;
+    padding: 0.5rem;
+}
+.circle{
+    background-color: $white;
+    width: 1.4rem;
+    border-radius: 50%;
+    height: 1.5rem;
+}
+.checkbox:checked + .sub{
+    justify-content: flex-end;
+}
+.cards{
+    display: flex;
+    width: 299px;
+    margin: 0 auto;
+    gap: 10rem;
+    align-items: center;
+    /* align-content: stretch; */
+    justify-content: space-around;
+}
+// .card {
+
+// }
+.card__shadow{
+    margin: 1.5rem 2.6rem;
+    border: 1px solid $text-color;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 0px 64px 0px #B000004D;
+
+}
+.card__shadow li{
+    
+    width: 100%;
+    padding: 0.6rem 0;
+    display: flex;
+    gap: 1rem;
+}
+.pack{
+    font-family: fonts.$font-poppins;
+    font-weight: fonts.$fw-semibold;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.card__shadow li.price{
+    font-size: 3rem;
+    color: #000000;
+    padding-bottom: 1rem;
+    font-weight: fonts.$fw-semibold;
+}
+.btn-plan{
+    margin-top: 1rem;
+    width: 13.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: none;
+    padding: 0.7rem 0rem 0.7rem 0rem;
+    border: 1px solid $black;
+    cursor: pointer;
+    &:hover{
+        background-color: #B00000;
+        color: $white;
+    }
+}
+.bottom-bar{
+
+}
+.pack{
+    font-size: 1.1rem;
+}
+.img-flex-cards{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
