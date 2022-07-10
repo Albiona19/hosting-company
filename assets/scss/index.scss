@@ -719,3 +719,50 @@ article h6{
         transform: scale(1.1);
     }
 }
+.footer{
+    background-color: $dark-red;
+    &__flex{
+        display: flex;
+        padding: 8rem;
+    }
+    &__flex1{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: $white;
+        font-family: fonts.$font-inter;
+        font-weight: fonts.$fw-regular;
+        font-size: 1.6rem;
+        line-height: 3.2rem;
+        img{
+            width: 20%;
+        }
+        p{
+            width: 62%;
+
+        }
+    }
+    &__flexbox{
+        display: flex;
+        gap: 12rem;
+    }
+    &__flex2{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        color: $white;
+     
+    }
+    &__ul-flex{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       
+        li a{
+            color: #E6E6E6;
+            text-decoration: none;
+            width: 100%;
+        }
+    }
+}

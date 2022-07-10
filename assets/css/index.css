@@ -692,4 +692,48 @@ table {
   transform: scale(1.1);
 }
 
+.footer {
+  background-color: #B00000;
+}
+.footer__flex {
+  display: flex;
+  padding: 8rem;
+}
+.footer__flex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+.footer__flex1 img {
+  width: 20%;
+}
+.footer__flex1 p {
+  width: 62%;
+}
+.footer__flexbox {
+  display: flex;
+  gap: 12rem;
+}
+.footer__flex2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: white;
+}
+.footer__ul-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer__ul-flex li a {
+  color: #E6E6E6;
+  text-decoration: none;
+  width: 100%;
+}
+
 /*# sourceMappingURL=index.css.map */
