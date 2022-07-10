@@ -360,3 +360,29 @@ $big-space:13.3rem;
     color: $dark-red;
     font-size: 20px;
 }
+.main-lemon-wares{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    &__container h1{
+        width: 78%;
+        font-size: 5rem;
+        line-height: 55px;
+        color: #2F281E;
+        font-weight: 600;
+        margin: 0 auto 10px auto;
+        font-family: fonts.$font-poppins;
+        line-height: 6rem;
+        text-align: center;        
+    }
+    &__container p{
+        font-family: fonts.$font-poppins;
+        font-weight: fonts.$fw-regular;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-align: center;
+        margin-top: 3rem;
+    }
+}
