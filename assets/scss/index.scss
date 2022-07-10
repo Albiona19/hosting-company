@@ -274,6 +274,48 @@ $big-space:13.3rem;
 }
     
 }
+.main-cloud1{
+    display: flex;
+    margin-top: 7rem;
+    gap: 10rem;
+    justify-content: space-between;
+    &__content h1{
+        font-family: fonts.$font-inter;
+        font-weight: fonts.$fw-extrabold;
+        font-size: 4rem;
+        line-height: 6.4rem;
+        width: 100%;
+
+    }
+    &__content p{
+        width: 100%;
+        font-family: fonts.$font-inter;
+        font-size: 1.5rem;
+        font-weight: fonts.$fw-regular;
+        line-height: 3rem;
+    
+    
+    }
+    &__imd-cont{
+        
+    }
+    &__img-content{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        gap: 8rem;
+        margin-bottom: 5rem;
+    }
+    &__img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 8rem;
+}
+    
+}
 .container-hosting{
     margin-top: 7rem;
    &__img-flex{

@@ -273,6 +273,42 @@ table {
   gap: 5rem;
 }
 
+.main-cloud1 {
+  display: flex;
+  margin-top: 7rem;
+  gap: 10rem;
+  justify-content: space-between;
+}
+.main-cloud1__content h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 6.4rem;
+  width: 100%;
+}
+.main-cloud1__content p {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.main-cloud1__img-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  margin-bottom: 5rem;
+}
+.main-cloud1__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8rem;
+}
+
 .container-hosting {
   margin-top: 7rem;
 }
