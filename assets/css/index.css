@@ -537,4 +537,21 @@ table {
   flex-direction: column;
 }
 
+.quote-mark {
+  position: relative;
+}
+
+.main_article {
+  position: absolute;
+  /* display: contents; */
+  display: flex;
+  flex-direction: column;
+  left: 17%;
+}
+
+.main-quote {
+  display: flex;
+  margin: 6rem;
+}
+
 /*# sourceMappingURL=index.css.map */
