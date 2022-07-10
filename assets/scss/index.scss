@@ -293,25 +293,25 @@ $big-space:13.3rem;
     gap: 100px;
     flex-direction: column;
     margin: 120px 0;
-}
-.main-container button{
-  margin: 0 auto 90px auto;
+
+    button{
+    margin: 0 auto 90px auto;
 
 }
-.main-container h2{
-    width: 540px;
-    font-size: 36px;
-    line-height: 55px;
-    color: #2F281E;
-    font-weight: 700;
-    margin: 0 auto 55px auto;
-    text-align: center;
+     h2{
+        width: 540px;
+        font-size: 36px;
+        line-height: 55px;
+        color: #2F281E;
+        font-weight: 700;
+        margin: 0 auto 55px auto;
+        text-align: center;
 }
-.main-container section{
+ section{
     display: flex;
     gap: 46px;
 }
-.flex-content{
+&__flex-content{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -320,7 +320,7 @@ $big-space:13.3rem;
     text-align: center;
     align-items: center;
 }
-.rounded-box{
+&__rounded-box{
     border-radius: 50px;
     background: rgba(176, 0, 0, 0.15);
     width: 70px;
@@ -333,33 +333,32 @@ $big-space:13.3rem;
 
 }
 
-.main-container article h6{
+article h6{
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
     color:#544837;
     margin-bottom: 10px;
 }
-.main-content{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 80px;
-}
-.design-content{
-  display: flex;
-  flex-direction: column;
-}
 
-.design-content h6{
-  font-weight: 500;
-  size: 16px;
-  line-height: 24px;
-
-}
 .fa-solid{
     color: $dark-red;
     font-size: 20px;
 }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .main-lemon-wares{
     display: flex;
     justify-content: space-around;
@@ -385,7 +384,7 @@ $big-space:13.3rem;
         text-align: center;
         margin-top: 3rem;
     }
-}
+
 .toggle{
     margin-top: 2rem;
     margin-bottom: 3.5rem;
@@ -400,7 +399,7 @@ $big-space:13.3rem;
     font-weight: fonts.$fw-regular;
 
 }
-.basic{
+&__basic{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -410,7 +409,7 @@ $big-space:13.3rem;
     font-weight: fonts.$fw-semibold;
     border-bottom: 2px solid gray;
 }
-.disc{
+&__disc{
     border-radius: 20px;
     background: #FFE87A;
     padding: 0.5rem;
@@ -423,10 +422,10 @@ $big-space:13.3rem;
     align-content: center;
     align-items: center;
 }
-.toggle-btn{
+&__toggle-btn{
     margin: 0 1rem;
 }
-.checkbox{
+&__checkbox{
     display: none;
 }
 .sub{
@@ -444,10 +443,10 @@ $big-space:13.3rem;
     border-radius: 50%;
     height: 1.5rem;
 }
-.checkbox:checked + .sub{
+&__checkbox:checked + .sub{
     justify-content: flex-end;
 }
-.cards{
+&__cards{
     display: flex;
     width: 299px;
     margin: 0 auto;
@@ -459,7 +458,7 @@ $big-space:13.3rem;
 // .card {
 
 // }
-.card__shadow{
+&__card-shadow{
     margin: 1.5rem 2.6rem;
     border: 1px solid $text-color;
     border-radius: 0.8rem;
@@ -471,24 +470,26 @@ $big-space:13.3rem;
     box-shadow: 0px 0px 64px 0px #B000004D;
 
 }
-.card__shadow li{
+&__card-shadow li{
     
     width: 100%;
     padding: 0.6rem 0;
     display: flex;
     gap: 1rem;
 }
+
+&__card-shadow li.price{
+    font-size: 3rem;
+    color: #000000;
+    padding-bottom: 1rem;
+    font-weight: fonts.$fw-semibold;
+}
+}
 .pack{
     font-family: fonts.$font-poppins;
     font-weight: fonts.$fw-semibold;
     font-size: 3rem;
     line-height: 2rem;
-}
-.card__shadow li.price{
-    font-size: 3rem;
-    color: #000000;
-    padding-bottom: 1rem;
-    font-weight: fonts.$fw-semibold;
 }
 .btn-plan{
     margin-top: 1rem;
@@ -512,22 +513,12 @@ $big-space:13.3rem;
 .pack{
     font-size: 1.1rem;
 }
-.img-flex-cards{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5rem;
 
-}
 .flex{
     display: flex;
     flex-direction: column;
 }
-.quote-mark{
-    position: relative;
-}
+
 .main_article{
     position: absolute;
     /* display: contents; */
@@ -537,5 +528,89 @@ $big-space:13.3rem;
 }
 .main-quote{
     display: flex;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.quote-content{
+    position: absolute;
+    bottom: 0%;
+    left: 14%;
+}
+.quote-content h1{
+    width: 60%;
+    font-family: fonts.$font-inter;
+    font-weight: fonts.$fw-extrabold;
+    font-size: 4rem;
+    line-height: 6rem;
+}
+.main-quote__img{
+    display: flex;
     margin: 6rem;
+}
+.quote-content h1{
+    display: flex;
+    right: 17%;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.main-div{
+    
+    &__container{
+        display: flex;
+        flex-direction: row;
+        /* gap: 1rem; */
+        /* align-items: center; */
+        gap: 2rem; 
+        margin-bottom: 2rem;
+        padding: 0 25rem 0 25rem;
+    }
+    &__change{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+.div1{
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    width: 34%;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    p{
+        margin-bottom: 1rem;
+    }
+}
+.div2{
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    width: 64%;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    p{
+        margin-bottom: 1rem;
+    }
+}
+.div3{
+    background: #FFFFFF;
+    /* Dark Shadow */
+
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    width: 50%;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    p{
+        margin-bottom: 1rem;
+    }
 }
