@@ -698,30 +698,22 @@ table {
 .footer__flex {
   display: flex;
   padding: 8rem;
+  gap: 7rem;
+  width: 87%;
 }
 .footer__flex1 {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  width: 26%;
   color: white;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 3.2rem;
-}
-.footer__flex1 img {
-  width: 20%;
-}
-.footer__flex1 p {
-  width: 62%;
-}
-.footer__flexbox {
-  display: flex;
-  gap: 12rem;
 }
 .footer__flex2 {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
   gap: 2rem;
   font-weight: "Inter", sans-serif;
   font-family: 700;
@@ -729,49 +721,56 @@ table {
   line-height: 2.4rem;
   color: white;
 }
-.footer__ul-flex {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-.footer__ul-flex li a {
+.footer li a {
   color: #E6E6E6;
   text-decoration: none;
-  width: 100%;
   font-size: 1.6rem;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   line-height: 3.2rem;
 }
+.footer li a:hover {
+  color: #2E2E2E;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
 .footer__flex3 {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
   gap: 2rem;
-  color: white;
   font-weight: "Inter", sans-serif;
   font-family: 700;
   font-size: 1.6rem;
   line-height: 2.4rem;
+  color: white;
 }
 .footer__flex4 {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
   gap: 2rem;
-  color: white;
   font-weight: "Inter", sans-serif;
   font-family: 700;
   font-size: 1.6rem;
+  margin-bottom: 5rem;
   line-height: 2.4rem;
+  color: white;
 }
 .footer__flex5 {
   display: flex;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 9rem;
   gap: 2rem;
-  color: white;
   font-weight: "Inter", sans-serif;
   font-family: 700;
   font-size: 1.6rem;
   line-height: 2.4rem;
+  color: white;
 }
 .footer__copy {
   color: white;
@@ -781,9 +780,8 @@ table {
   font-weight: 400;
   font-size: 1.6rem;
 }
-
-.li-width {
-  width: 200%;
+.footer__ul-flex li {
+  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
