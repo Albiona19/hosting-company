@@ -64,6 +64,12 @@ table {
   margin: 0 auto;
 }
 
+.footer__flex {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .navigation {
   display: flex;
   align-items: center;
@@ -295,7 +301,7 @@ table {
 
 .main-cloud1 {
   display: flex;
-  margin-top: 7rem;
+  margin-top: 5rem;
   gap: 10rem;
   justify-content: space-between;
 }
@@ -362,7 +368,8 @@ table {
 }
 .main-container section {
   display: flex;
-  gap: 46px;
+  gap: 4.6rem;
+  margin-top: 5rem;
 }
 .main-container__flex-content {
   width: 50%;

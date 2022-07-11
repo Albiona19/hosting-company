@@ -23,10 +23,15 @@ $big-space:13.3rem;
     font-family: fonts.$font-poppins;
     scroll-behavior: smooth;
 }
-.main-wrapper{
+.main-wrapper
+{
     max-width: 1170px;
     width: 100%;
-    // padding: 0 5.2%;
+    margin: 0 auto;
+}
+.footer__flex{
+    max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 .navigation{
@@ -297,7 +302,7 @@ $big-space:13.3rem;
 }
 .main-cloud1{
     display: flex;
-    margin-top: 7rem;
+    margin-top: 5rem;
     gap: 10rem;
     justify-content: space-between;
     &__content h1{
@@ -371,7 +376,8 @@ $big-space:13.3rem;
 }
  section{
     display: flex;
-    gap: 46px;
+    gap: 4.6rem;
+    margin-top: 5rem;
 }
 &__flex-content{
     width: 50%;
@@ -840,3 +846,6 @@ article h6{
 // // .li-width{
 // //     width: 200%;
 // // }
+// body {
+//     background-color: $dark-red;
+// }
