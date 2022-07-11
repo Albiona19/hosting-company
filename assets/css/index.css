@@ -58,43 +58,17 @@ table {
   scroll-behavior: smooth;
 }
 
-.main-wrapper {
+.main-banner__main-wrapper,
+.main-cloud__main-wrapper,
+.main-wrapper,
+.main-get__main-wraper,
+.main-lemon-wares__basic__main-wrapper,
+.main-container__main-wrapper,
+.menu__main-wrapper,
+.main-get__main-wrapper {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-}
-
-.main-get .main-wrapper {
-  width: 100%;
-  background-color: #F7FAFE;
-}
-
-.main-cloud1 .main-wrapper {
-  display: flex;
-  gap: 10rem;
-}
-
-.main-lemon-wares__basic .main-wrapper {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  gap: 30rem;
-  border-bottom: 2px solid red;
-}
-
-.main-container .main-wrapper {
-  display: flex;
-  gap: 5rem;
-}
-
-.main-cloud .main-wrapper {
-  display: flex;
-  gap: 10rem;
-}
-
-.main-banner .main-wrapper {
-  display: flex;
 }
 
 .navigation {
@@ -182,6 +156,9 @@ table {
 .main-banner {
   display: flex;
   justify-content: space-between;
+}
+.main-banner__main-wrapper {
+  display: flex;
 }
 .main-banner__img-wrapp {
   position: relative;
@@ -295,6 +272,10 @@ table {
   gap: 10rem;
   justify-content: space-between;
 }
+.main-cloud__main-wrapper {
+  display: flex;
+  gap: 10rem;
+}
 .main-cloud__content h1 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -380,6 +361,10 @@ table {
   flex-direction: column;
   margin-bottom: 10rem;
 }
+.main-container__main-wrapper {
+  display: flex;
+  gap: 5rem;
+}
 .main-container button {
   margin: 0 auto 3rem auto;
 }
@@ -435,6 +420,14 @@ table {
   align-content: center;
   align-items: center;
   text-align: center;
+}
+.main-lemon-wares__basic__main-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  border-bottom: 2px solid red;
 }
 .main-lemon-wares__container h1 {
   width: 78%;
@@ -676,6 +669,10 @@ table {
   margin-bottom: 1rem;
 }
 
+.main-get__main-wrapper {
+  width: 100%;
+  background-color: #F7FAFE;
+}
 .main-get__content {
   display: flex;
   gap: 4rem;
