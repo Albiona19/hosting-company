@@ -29,10 +29,32 @@ $big-space:13.3rem;
     width: 100%;
     margin: 0 auto;
 }
-.footer__flex{
-    max-width: 1170px;
+.main-get .main-wrapper{
     width: 100%;
-    margin: 0 auto;
+    background-color: #F7FAFE;
+}
+.main-cloud1 .main-wrapper{
+    display: flex;
+    gap: 10rem;
+}
+.main-lemon-wares__basic .main-wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+    border-bottom: 2px solid red;
+}
+.main-container .main-wrapper{
+    display: flex; 
+    gap:5rem;
+}
+.main-cloud .main-wrapper{
+    display: flex; 
+    gap:10rem;
+}
+.main-banner .main-wrapper{
+    display: flex;
 }
 .navigation{
     display: flex;
@@ -96,7 +118,7 @@ $big-space:13.3rem;
 .menu{
     
     margin-bottom: 2rem;
-    width: 20%;
+   
     
 
     &__ul{
@@ -468,14 +490,11 @@ article h6{
 
 }
 &__basic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 33rem;
+   
     font-size: 3rem;
     font-family: fonts.$font-poppins;
     font-weight: fonts.$fw-semibold;
-    border-bottom: 2px solid gray;
+   
 }
 &__disc{
     border-radius: 20px;
@@ -682,9 +701,8 @@ article h6{
         margin-bottom: 1rem;
     }
 }
-.main-get{
-    width: 100%;
-    background-color: #F7FAFE;
+.main-get {
+ 
     &__content{
         display: flex;
         gap: 4rem;

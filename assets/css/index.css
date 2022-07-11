@@ -64,10 +64,37 @@ table {
   margin: 0 auto;
 }
 
-.footer__flex {
-  max-width: 1170px;
+.main-get .main-wrapper {
   width: 100%;
-  margin: 0 auto;
+  background-color: #F7FAFE;
+}
+
+.main-cloud1 .main-wrapper {
+  display: flex;
+  gap: 10rem;
+}
+
+.main-lemon-wares__basic .main-wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  border-bottom: 2px solid red;
+}
+
+.main-container .main-wrapper {
+  display: flex;
+  gap: 5rem;
+}
+
+.main-cloud .main-wrapper {
+  display: flex;
+  gap: 10rem;
+}
+
+.main-banner .main-wrapper {
+  display: flex;
 }
 
 .navigation {
@@ -122,7 +149,6 @@ table {
 
 .menu {
   margin-bottom: 2rem;
-  width: 20%;
 }
 .menu__ul {
   display: flex;
@@ -443,14 +469,9 @@ table {
   font-weight: 400;
 }
 .main-lemon-wares__basic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 33rem;
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  border-bottom: 2px solid gray;
 }
 .main-lemon-wares__disc {
   border-radius: 20px;
@@ -655,10 +676,6 @@ table {
   margin-bottom: 1rem;
 }
 
-.main-get {
-  width: 100%;
-  background-color: #F7FAFE;
-}
 .main-get__content {
   display: flex;
   gap: 4rem;
