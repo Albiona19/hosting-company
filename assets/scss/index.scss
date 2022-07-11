@@ -887,183 +887,183 @@ article h6{
 //     background-color: $dark-red;
 // }
 
-@media screen and (max-width:1100px) {
-    .navigation{
-        padding: 2rem;
-    }
-    .menu__ul{
-        display: flex;
-        gap: 2.5rem;
-        padding: 2rem;
-        width: 20%;
-        font-size: 1.5rem;
-        font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        flex-direction: column;
-    }
-    .main-banner__banner-content h1{
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-size: 3.4rem;
-        /* line-height: 7.8rem; */
-        color: #2E2E2E;
-        margin-bottom: 3rem;
-        text-align: center;
+// @media screen and (max-width:1100px) {
+//     .navigation{
+//         padding: 2rem;
+//     }
+//     .menu__ul{
+//         display: flex;
+//         gap: 2.5rem;
+//         padding: 2rem;
+//         width: 20%;
+//         font-size: 1.5rem;
+//         font-family: "Poppins", sans-serif;
+//         font-weight: 600;
+//         flex-direction: column;
+//     }
+//     .main-banner__banner-content h1{
+//         font-family: "Poppins", sans-serif;
+//         font-weight: 800;
+//         font-size: 3.4rem;
+//         /* line-height: 7.8rem; */
+//         color: #2E2E2E;
+//         margin-bottom: 3rem;
+//         text-align: center;
 
-    }
-    .img-banner{
-        margin: 5%;
-    }
-    .main-banner .btn {
-        display: flex;
-        gap: 2.4rem;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .main-container__main-wrapper {
-        display: flex;
-        gap: 5rem;
-        margin: 0 auto;
-        padding: -12rem;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: nowrap;
-    }
-    .main-lemon-wares__basic__main-wrapper {
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        gap: 30rem;
-        /* border-bottom: 2px solid red; */
-    }
-    .main-lemon-wares__cards {
-        display: flex;
-        width: 79%;
-        margin: 0 auto;
-        gap: 10rem;
-        align-items: center;
-        /* align-content: stretch; */
-        justify-content: space-around;
-        flex-direction: column;
-    }
-    .main-cloud__content p {
-        width: 100%;
-        font-family: "Inter", sans-serif;
-        font-size: 1.5rem;
-        font-weight: 400;
-        text-align: center;
-        line-height: 3rem;
-    }
-    .main-cloud__content h1 {
-        font-family: "Inter", sans-serif;
-        font-weight: 800;
-        font-size: 3rem;
-        line-height: 6.4rem;
-        width: 100%;
-        text-align: center;
-    }
-    .main-cloud__main-wrapper {
-        display: flex;
-        gap: 10rem;
-        flex-direction: column-reverse;
-    }
-    .main-banner__main-wrapper{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .main-banner__img-wrapp .arrow-up {
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 74%;
-        left: 50%;
-        border-style: solid;
-        border-width: 0 0 7.2rem 7.2rem;
-        border-color: transparent transparent #B00000 transparent;
-    }
-    .main-banner__img-wrapp .arrow-right {
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 12%;
-        left: 53%;
-        border-style: solid;
-        border-width: 0 0 40px 40px;
-        border-color: transparent transparent #B00000 transparent;
-    }
-    .main-banner__img-wrapp .arrow-bottom {
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 60%;
-        right: 91%;
-        border-style: solid;
-        border-width: 4rem 0 0 4rem;
-        border-color: transparent transparent transparent #B00000;
-    }
-    .navigation {
-        display: flex;
-        align-items: center;
-        font-size: 1.6rem;
-        gap: 3rem;
-        margin-top: 4rem;
-        margin-bottom: 8rem;
-        flex-direction: column;
-    }
-    .main-banner__banner-content p {
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-        line-height: 2.8rem;
-        color: #808080;
-        font-size: 1.6rem;
-        /* width: 66%; */
-        text-align: center;
-        margin-bottom: 6rem;
-    }
-    // .main-cloud1__main-wrapper {
-    //     display: flex;
-    //     gap: 2rem;
-    //     flex-direction: column-reverse;
-    // }
-    // .main-cloud1__content p {
-    //     width: 100%;
-    //     font-family: "Inter", sans-serif;
-    //     font-size: 1.5rem;
-    //     font-weight: 400;
-    //     line-height: 3rem;
-    //     text-align: center;
-    //     margin-bottom: 2rem;
-    // }
-    // .main-cloud1__content h1 {
-    //     font-family: "Inter", sans-serif;
-    //     font-weight: 800;
-    //     font-size: 4rem;
-    //     text-align: center;
-    //     line-height: 6.4rem;
-    //     width: 100%;
-    // }
-    // .footer__flex {
-    //     display: flex;
-    //     /* padding: 8rem; */
-    //     gap: 7rem;
-    //     width: 87%;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     justify-content: center;
-    //     align-content: center;
-    // }
-    .main-banner__img-wrapp .arrow-up1 {
-        position: absolute;
-        width: 0;
-        height: 0;
-        top: 74%;
-        left: 87%;
-        border-style: solid;
-        border-width: 0 0 7.2rem 7.2rem;
-        border-color: transparent transparent #B00000 transparent;
-    }
-}
+//     }
+//     .img-banner{
+//         margin: 5%;
+//     }
+//     .main-banner .btn {
+//         display: flex;
+//         gap: 2.4rem;
+//         align-content: center;
+//         justify-content: center;
+//         align-items: center;
+//     }
+//     .main-container__main-wrapper {
+//         display: flex;
+//         gap: 5rem;
+//         margin: 0 auto;
+//         padding: -12rem;
+//         flex-direction: column;
+//         align-items: center;
+//         justify-content: center;
+//         align-content: center;
+//         flex-wrap: nowrap;
+//     }
+//     .main-lemon-wares__basic__main-wrapper {
+//         display: flex;
+//         align-content: center;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 30rem;
+//         /* border-bottom: 2px solid red; */
+//     }
+//     .main-lemon-wares__cards {
+//         display: flex;
+//         width: 79%;
+//         margin: 0 auto;
+//         gap: 10rem;
+//         align-items: center;
+//         /* align-content: stretch; */
+//         justify-content: space-around;
+//         flex-direction: column;
+//     }
+//     .main-cloud__content p {
+//         width: 100%;
+//         font-family: "Inter", sans-serif;
+//         font-size: 1.5rem;
+//         font-weight: 400;
+//         text-align: center;
+//         line-height: 3rem;
+//     }
+//     .main-cloud__content h1 {
+//         font-family: "Inter", sans-serif;
+//         font-weight: 800;
+//         font-size: 3rem;
+//         line-height: 6.4rem;
+//         width: 100%;
+//         text-align: center;
+//     }
+//     .main-cloud__main-wrapper {
+//         display: flex;
+//         gap: 10rem;
+//         flex-direction: column-reverse;
+//     }
+//     .main-banner__main-wrapper{
+//         display: flex;
+//         flex-direction: column-reverse;
+//     }
+//     .main-banner__img-wrapp .arrow-up {
+//         position: absolute;
+//         width: 0;
+//         height: 0;
+//         top: 74%;
+//         left: 50%;
+//         border-style: solid;
+//         border-width: 0 0 7.2rem 7.2rem;
+//         border-color: transparent transparent #B00000 transparent;
+//     }
+//     .main-banner__img-wrapp .arrow-right {
+//         position: absolute;
+//         width: 0;
+//         height: 0;
+//         top: 12%;
+//         left: 53%;
+//         border-style: solid;
+//         border-width: 0 0 40px 40px;
+//         border-color: transparent transparent #B00000 transparent;
+//     }
+//     .main-banner__img-wrapp .arrow-bottom {
+//         position: absolute;
+//         width: 0;
+//         height: 0;
+//         top: 60%;
+//         right: 91%;
+//         border-style: solid;
+//         border-width: 4rem 0 0 4rem;
+//         border-color: transparent transparent transparent #B00000;
+//     }
+//     .navigation {
+//         display: flex;
+//         align-items: center;
+//         font-size: 1.6rem;
+//         gap: 3rem;
+//         margin-top: 4rem;
+//         margin-bottom: 8rem;
+//         flex-direction: column;
+//     }
+//     .main-banner__banner-content p {
+//         font-family: "Inter", sans-serif;
+//         font-weight: 400;
+//         line-height: 2.8rem;
+//         color: #808080;
+//         font-size: 1.6rem;
+//         /* width: 66%; */
+//         text-align: center;
+//         margin-bottom: 6rem;
+//     }
+//     // .main-cloud1__main-wrapper {
+//     //     display: flex;
+//     //     gap: 2rem;
+//     //     flex-direction: column-reverse;
+//     // }
+//     // .main-cloud1__content p {
+//     //     width: 100%;
+//     //     font-family: "Inter", sans-serif;
+//     //     font-size: 1.5rem;
+//     //     font-weight: 400;
+//     //     line-height: 3rem;
+//     //     text-align: center;
+//     //     margin-bottom: 2rem;
+//     // }
+//     // .main-cloud1__content h1 {
+//     //     font-family: "Inter", sans-serif;
+//     //     font-weight: 800;
+//     //     font-size: 4rem;
+//     //     text-align: center;
+//     //     line-height: 6.4rem;
+//     //     width: 100%;
+//     // }
+//     // .footer__flex {
+//     //     display: flex;
+//     //     /* padding: 8rem; */
+//     //     gap: 7rem;
+//     //     width: 87%;
+//     //     flex-direction: column;
+//     //     align-items: center;
+//     //     justify-content: center;
+//     //     align-content: center;
+//     // }
+//     .main-banner__img-wrapp .arrow-up1 {
+//         position: absolute;
+//         width: 0;
+//         height: 0;
+//         top: 74%;
+//         left: 87%;
+//         border-style: solid;
+//         border-width: 0 0 7.2rem 7.2rem;
+//         border-color: transparent transparent #B00000 transparent;
+//     }
+// }
